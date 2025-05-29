@@ -145,7 +145,11 @@ public:
         // This is fine at runtime as we'll fall back to using them as an addrfetch if they don't support the
         // // service bits we want, but we should get them updated to support all service bits wanted by any
         // // release ASAP to avoid it where possible.
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 3669e860c2 (Remove build artifacts from repo)
         vSeeds.emplace_back("seed.quantanetwork.org");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,58);
@@ -164,7 +168,11 @@ public:
         m_assumeutxo_data = {};
 
         chainTxData = ChainTxData{
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 3669e860c2 (Remove build artifacts from repo)
             .nTime    = 1746057600,
             .tx_count = 0,
             .dTxRate  = 0.0,
