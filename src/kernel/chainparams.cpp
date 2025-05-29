@@ -164,7 +164,7 @@ public:
         m_assumeutxo_data = {};
 
         chainTxData = ChainTxData{
-            // Data from RPC: getchaintxstats 4096 00000000000000000001b658dd1120e82e66d2790811f89ede9742ada3ed6d77
+            
             .nTime    = 1746057600,
             .tx_count = 0,
             .dTxRate  = 0.0,
