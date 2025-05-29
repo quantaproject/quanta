@@ -1391,8 +1391,8 @@ static CScript ScriptFromHex(const std::string& str)
 
 BOOST_AUTO_TEST_CASE(script_byte_array_u8_vector_equivalence)
 {
-    const CScript scriptPubKey1 = CScript() << "04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f"_hex_v_u8 << OP_CHECKSIG;
-    const CScript scriptPubKey2 = CScript() << "04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f"_hex << OP_CHECKSIG;
+    const CScript scriptPubKey1 = CScript() << "0493e40e7397cfeb686054be22a11733cb75514895552e80110a6d2ac9c6c30820fed2942fdb9ef883873cec047f43b904e2adec5e8554ed310e4010934b113e57"_hex_v_u8 << OP_CHECKSIG;
+    const CScript scriptPubKey2 = CScript() << "0493e40e7397cfeb686054be22a11733cb75514895552e80110a6d2ac9c6c30820fed2942fdb9ef883873cec047f43b904e2adec5e8554ed310e4010934b113e57"_hex << OP_CHECKSIG;
     BOOST_CHECK(scriptPubKey1 == scriptPubKey2);
 }
 

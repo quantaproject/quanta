@@ -1,12 +1,12 @@
-Contributing to Bitcoin Core
+Contributing to Quanta Core
 ============================
 
-The Bitcoin Core project operates an open contributor model where anyone is
+The Quanta Core project operates an open contributor model where anyone is
 welcome to contribute towards development in the form of peer review, testing
 and patches. This document explains the practical process and guidelines for
 contributing.
 
-First, in terms of structure, there is no particular concept of "Bitcoin Core
+First, in terms of structure, there is no particular concept of "Quanta Core
 developers" in the sense of privileged people. Open source often naturally
 revolves around a meritocracy where contributors earn trust from the developer
 community over time. Nevertheless, some hierarchy is necessary for practical
@@ -24,9 +24,9 @@ as a new contributor. It also will teach you much more about the code and
 process than opening pull requests. Please refer to the [peer review](#peer-review)
 section below.
 
-Before you start contributing, familiarize yourself with the Bitcoin Core build
+Before you start contributing, familiarize yourself with the Quanta Core build
 system and tests. Refer to the documentation in the repository on how to build
-Bitcoin Core and how to run the unit tests, functional tests, and fuzz tests.
+Quanta Core and how to run the unit tests, functional tests, and fuzz tests.
 
 There are many open issues of varying difficulty waiting to be fixed.
 If you're looking for somewhere to start contributing, check out the
