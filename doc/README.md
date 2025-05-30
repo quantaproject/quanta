@@ -28,11 +28,9 @@ Drag Quanta Core to your applications folder, and then run Quanta Core.
 
 ### Need Help?
 
-* See the documentation at the [Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
+* See the documentation at the [Quanta Wiki](#)
 for help and more information.
-* Ask for help on [Bitcoin StackExchange](https://bitcoin.stackexchange.com).
-* Ask for help on #bitcoin on Libera Chat. If you don't have an IRC client, you can use [web.libera.chat](https://web.libera.chat/#bitcoin).
-* Ask for help on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Technical Support board](https://bitcointalk.org/index.php?board=4.0).
+* Ask for help on the [QuantaTalk](https://quantatalk.org/) forums, in the [Technical Support board](https://bitcointalk.org/).
 
 Building
 ---------------------
@@ -64,8 +62,7 @@ The Quanta repo's [root README](/README.md) contains relevant information on the
 - [Internal Design Docs](design/)
 
 ### Resources
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Development & Technical Discussion board](https://bitcointalk.org/index.php?board=6.0).
-* Discuss project-specific development on #bitcoin-core-dev on Libera Chat. If you don't have an IRC client, you can use [web.libera.chat](https://web.libera.chat/#bitcoin-core-dev).
+* Discuss on the [BitcoinTalk](https://quantatalk.org/) forums, in the [Development & Technical Discussion board](https://bitcointalk.org/).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

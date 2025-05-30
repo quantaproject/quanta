@@ -25,7 +25,7 @@ Developer Notes
     - [Threads](#threads)
     - [Ignoring IDE/editor files](#ignoring-ideeditor-files)
 - [Development guidelines](#development-guidelines)
-    - [General Bitcoin Core](#general-bitcoin-core)
+    - [General Quanta Core](#general-quanta-core)
     - [Wallet](#wallet)
     - [General C++](#general-c)
     - [C++ data structures](#c-data-structures)
@@ -823,7 +823,7 @@ Development guidelines
 A few non-style-related recommendations for developers, as well as points to
 pay attention to for reviewers of Bitcoin Core code.
 
-General Bitcoin Core
+General Quanta Core
 ----------------------
 
 - New features should be exposed on RPC first, then can be made available in the GUI.
@@ -1011,7 +1011,7 @@ Strings and formatting
 
 - For `strprintf`, `LogInfo`, `LogDebug`, etc formatting characters don't need size specifiers.
 
-  - *Rationale*: Bitcoin Core uses tinyformat, which is type safe. Leave them out to avoid confusion.
+  - *Rationale*: Quanta Core uses tinyformat, which is type safe. Leave them out to avoid confusion.
 
 - Use `.c_str()` sparingly. Its only valid use is to pass C++ strings to C functions that take NULL-terminated
   strings.
