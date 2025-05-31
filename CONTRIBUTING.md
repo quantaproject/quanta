@@ -30,13 +30,13 @@ Quanta Core and how to run the unit tests, functional tests, and fuzz tests.
 
 There are many open issues of varying difficulty waiting to be fixed.
 If you're looking for somewhere to start contributing, check out the
-[good first issue](https://github.com/bitcoin/bitcoin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+[good first issue](https://github.com/quantaproject/quanta)
 list or changes that are
-[up for grabs](https://github.com/bitcoin/bitcoin/issues?utf8=%E2%9C%93&q=label%3A%22Up+for+grabs%22).
+[up for grabs](https://github.com/quantaproject/quanta).
 Some of them might no longer be applicable. So if you are interested, but
 unsure, you might want to leave a comment on the issue first.
 
-You may also participate in the [Bitcoin Core PR Review Club](https://bitcoincore.reviews/).
+You may also participate in the [Quanta Core PR Review Club](#).
 
 ### Good First Issue Label
 
@@ -54,8 +54,8 @@ and is also an effective way to request assistance if and when you need it.
 Communication Channels
 ----------------------
 
-Most communication about Bitcoin Core development happens on IRC, in the
-`#bitcoin-core-dev` channel on Libera Chat. The easiest way to participate on IRC is
+Most communication about Quanta Core development happens on IRC, in the
+`#quanta-core-dev` channel on Libera Chat. The easiest way to participate on IRC is
 with the web client, [web.libera.chat](https://web.libera.chat/#bitcoin-core-dev). Chat
 history logs can be found
 on [https://www.erisian.com.au/bitcoin-core-dev/](https://www.erisian.com.au/bitcoin-core-dev/)
@@ -84,8 +84,8 @@ To contribute a patch, the workflow is as follows:
   1. Create topic branch
   1. Commit patches
 
-For GUI-related issues or pull requests, the https://github.com/bitcoin-core/gui repository should be used.
-For all other issues and pull requests, the https://github.com/bitcoin/bitcoin node repository should be used.
+For GUI-related issues or pull requests, the https://github.com/quantaproject/quanta repository should be used.
+For all other issues and pull requests, the https://github.com/quantaproject/quanta node repository should be used.
 
 The master branch for all monotree repositories is identical.
 
@@ -142,7 +142,7 @@ the pull request affects. Valid areas as:
 
   - `consensus` for changes to consensus critical code
   - `doc` for changes to the documentation
-  - `qt` or `gui` for changes to bitcoin-qt
+  - `qt` or `gui` for changes to quanta-qt
   - `log` for changes to log messages
   - `mining` for changes to the mining code
   - `net` or `p2p` for changes to the peer-to-peer network code
@@ -232,7 +232,7 @@ pull request to pull request.
 
 When a pull request conflicts with the target branch, you may be asked to rebase it on top of the current target branch.
 
-    git fetch https://github.com/bitcoin/bitcoin  # Fetch the latest upstream commit
+    git fetch https://github.com/quantaproject/quanta  # Fetch the latest upstream commit
     git rebase FETCH_HEAD  # Rebuild commits on top of the new base
 
 This project aims to have a clean git history, where code changes are only made in non-merge commits. This simplifies
@@ -289,11 +289,11 @@ workload on reviewing.
 "Decision Making" Process
 -------------------------
 
-The following applies to code changes to the Bitcoin Core project (and related
+The following applies to code changes to the Quanta Core project (and related
 projects such as libsecp256k1), and is not to be confused with overall Bitcoin
 Network Protocol consensus changes.
 
-Whether a pull request is merged into Bitcoin Core rests with the project merge
+Whether a pull request is merged into Quanta Core rests with the project merge
 maintainers.
 
 Maintainers will take into consideration if a patch is in line with the general
@@ -312,7 +312,7 @@ In general, all pull requests must:
     demonstrating the bug and also proving the fix. This helps prevent regression.
   - Change relevant comments and documentation when behaviour of code changes.
 
-Patches that change Bitcoin consensus rules are considerably more involved than
+Patches that change Quanta consensus rules are considerably more involved than
 normal because they affect the entire ecosystem and so must be preceded by
 extensive mailing list discussions and have a numbered BIP. While each case will
 be different, one should be prepared to expend more time and effort than for
@@ -373,7 +373,7 @@ higher in terms of discussion and peer review requirements, keeping in mind that
 mistakes could be very costly to the wider community. This includes refactoring
 of consensus-critical code.
 
-Where a patch set proposes to change the Bitcoin consensus, it must have been
+Where a patch set proposes to change the Quanta consensus, it must have been
 discussed extensively on the mailing list and IRC, be accompanied by a widely
 discussed BIP and have a generally widely perceived technical consensus of being
 a worthwhile change based on the judgement of the maintainers.
